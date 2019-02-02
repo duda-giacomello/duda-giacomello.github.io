@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+http://eduardagiacomello.com/* http://eduardagiacomello.com.br/:splat 301!
+http://www.eduardagiacomello.com/* http://eduardagiacomello.com.br/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://duda-giacomello.netlify.com/* http://eduardagiacomello.com.br/:splat 301!
