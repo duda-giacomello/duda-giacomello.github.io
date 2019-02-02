@@ -1,0 +1,17 @@
+title: eduarda giacomello
+email: eduarda.giacomello@gmail.com
+phone: +55 11 99778-0797
+description: Eduarda Giacomello Portfólio
+meta_keywords: redes sociais, branding digital, conteudo digital, seo, google analytics, planejamento digital
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dutra21.github.io/eduarda-portfolio/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

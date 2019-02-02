@@ -1,0 +1,90 @@
+.about{
+    background: $color-bg-primary;
+    width: 95%;
+    width: 95vw;
+    height: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 9;
+    transition: all 2s;
+    transition-timing-function: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+
+    @media screen and (max-width: $screen-sm-max){
+        width: 97%;
+        width: 97vw;
+    }
+
+    @media screen and (max-width: $screen-xs-max){
+        width: 100%;
+        width: 100vw;
+    }
+
+    &.is-visible{
+        right: 0;
+        transition: all 2s;
+        transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+        // -webkit-transition: all .2s linear;
+        // transition: all .2s linear;
+    }
+
+    .container{
+        height: 100%;
+    }
+
+    .a-info{
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .text-about{
+            width: 85%;
+            font-family: $font-secondary;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 50px;
+            margin-right: 30px;
+
+            @media screen and (max-width: $screen-xs-max){
+                width: 90%;
+                font-size: 20px;
+                line-height: 35px;
+                margin-right: 10px;
+                margin-top: 80px;
+            }
+        }
+
+        .btn-menu{
+            position: absolute;
+            right: 60px;
+
+            @media screen and (max-width: $screen-sm-max){
+                right: 25px;
+            }
+
+            @media screen and (max-width: $screen-xs-max){
+                top: 25%;
+            }
+        }
+    }
+
+    .wrapper-download{
+        position: absolute;
+        width: 100%;
+        bottom: 30px;
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        .ico-lkd{
+            margin-left: 30px;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+  min-height: calc(100vh - 60px);
+  font-family: $font-primary;
+  color: $color-primary;
+
+  @media screen and (max-width: $screen-sm-max){
+    min-height: calc(100vh - 40px);
+  }
+}
+
+::-moz-selection {
+  background: $selection;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: $selection;
+  color: white;
+  text-shadow: none;
+}
+
+.no-scroll{
+  overflow-y: hidden;
+  height: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 1175px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $screen-md) and (max-width: $screen-md-max){
+    width: 80%;
+  }
+
+  @media only screen and (max-width: $screen-sm-max){
+    width: 90%;
+  }
+}
+
+.icon-arrow{
+  width: 35px;
+  height: 70px;
+  background: url(icons/big_arrow.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.icon-resume{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(icons/arrow_download.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.ico-lkd{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(icons/linkedin.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  text-indent: -99999px;
+}
+
+.btn-menu{
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  color: $color-secondary;
+  font-family: $font-secondary;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transform-origin: right 0;
+  cursor: pointer;
+}
+
+.btn-download-cv{
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
