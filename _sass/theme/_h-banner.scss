@@ -16,6 +16,7 @@
     }
 
     h2{
+        width: 100%;
         margin: 0;
         text-transform: uppercase;
         font-family: $font-secondary;
@@ -38,9 +39,9 @@
         }
 
         @media screen and (max-width: $screen-xs-max){
-            font-size: 50px;
-            height: auto;
-            margin-top: 80px;
+            font-size: 35px;
+            height: 60%;
+            align-items: flex-end;
         }
     }
 
@@ -65,6 +66,9 @@
 
         @media screen and (max-width: $screen-xs-max){
             top: 25%;
+            right: 20px;
+            font-size: 20px;
+            line-height: 20px;
         }
     }
 }

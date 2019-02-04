@@ -51,10 +51,9 @@
 
             @media screen and (max-width: $screen-xs-max){
                 width: 90%;
-                font-size: 20px;
-                line-height: 35px;
+                font-size: 16px;
+                line-height: 28px;
                 margin-right: 10px;
-                margin-top: 80px;
             }
         }
 
@@ -68,6 +67,9 @@
 
             @media screen and (max-width: $screen-xs-max){
                 top: 25%;
+                right: 20px;
+                font-size: 20px;
+                line-height: 20px;
             }
         }
     }
