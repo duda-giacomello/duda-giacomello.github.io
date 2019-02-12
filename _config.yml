@@ -1,4 +1,9 @@
 title: eduarda giacomello
+timezone: UTC
+collections:
+  projects:
+    title: Projects
+    output: false
 email: eduarda.giacomello@gmail.com
 phone: +55 11 99778-0797
 description: Eduarda Giacomello Portfólio

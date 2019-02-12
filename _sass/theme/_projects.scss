@@ -1,0 +1,47 @@
+.projects{
+    .slide-projects, .project{
+        height: 100%;
+        height: 100vh;
+    }
+
+    .project:nth-child(even){
+        background: $color-bg-secondary;
+    }
+    .project:nth-child(odd){
+        background: $color-bg-primary;
+    }
+
+    .title-project{
+        font-family: $font-secondary;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+
+    .description-project{
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .wrapper-brands{
+        .list-brands{
+            display: flex;
+        }
+
+        p{
+            font-family: $font-secondary;
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .box-brand{
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-brand +  .box-brand{
+            margin-left: 20px;
+        }
+    }
+}

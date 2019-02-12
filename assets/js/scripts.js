@@ -11,4 +11,13 @@ $(document).ready(function(){
 			about.addClass('is-visible')
 		}
 	})
+
+	// slide
+	$('.slide-projects').slick({
+		dots: true,
+		infinite: false,
+		speed: 500,
+		vertical: true,
+		arrows: false
+	});
 });

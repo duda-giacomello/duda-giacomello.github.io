@@ -1,0 +1,23 @@
+<section class="projects">
+    <div class="slide-projects">
+    {% for project in site.projects %}
+        <div class="project">
+            <div class="container">
+                <h3 class="title-project">{{ project.title }}</h3>
+                <p class="description-project">{{ project.description }}</p>
+
+                <div class="wrapper-brands">
+                    <p>Marcas Atendidas</p>
+                    <div class="list-brands">
+                        {% for brand in project.brands %}
+                        <div class="box-brand">
+                            <img src="{{ project.brands }}" alt="logo marca atendida" class="img-brand">
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</section>
