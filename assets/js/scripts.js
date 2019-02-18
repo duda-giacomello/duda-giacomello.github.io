@@ -13,11 +13,13 @@ $(document).ready(function(){
 	})
 
 	// slide
-	$('.slide-projects').slick({
+	const $slider = $('.slide-projects');
+	$slider.slick({
 		dots: true,
 		infinite: false,
 		speed: 500,
 		vertical: true,
+		verticalSwiping: true,
 		arrows: false
 	});
 });
