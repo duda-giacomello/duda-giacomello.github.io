@@ -9,11 +9,18 @@
                 <div class="wrapper-brands">
                     <p>Marcas Atendidas</p>
                     <div class="list-brands">
-                        {% for brand in project.brands %}
                         <div class="box-brand">
-                            <img src="{{ project.brands }}" alt="logo marca atendida" class="img-brand">
+                            <img src="{{ project.brand1 }}" alt="logo marca atendida" class="img-brand">
                         </div>
-                        {% endfor %}
+                        <div class="box-brand">
+                            <img src="{{ project.brand2 }}" alt="logo marca atendida" class="img-brand">
+                        </div>
+                        <div class="box-brand">
+                            <img src="{{ project.brand3 }}" alt="logo marca atendida" class="img-brand">
+                        </div>
+                        <div class="box-brand">
+                            <img src="{{ project.brand4 }}" alt="logo marca atendida" class="img-brand">
+                        </div>
                     </div>
                 </div>
             </div>
