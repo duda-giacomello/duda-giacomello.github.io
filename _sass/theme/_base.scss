@@ -107,13 +107,16 @@ body {
 }
 
 .onepage-pagination{
-  transition: display 0.5s;
-  transition-delay: 3s;
   display: block;
   right: 95px;
   margin-top: -70px;
 
+  @media screen and (max-width: $screen-sm-max){
+    right: 40px;
+  }
+
   li{
+
     a:before{
       background: $color-secondary;
     }
@@ -134,7 +137,5 @@ body {
 }
 
 .viewing-page-1 .onepage-pagination{
-  transition: display 0.5s;
-  transition-delay: 5s;
-  display: none;
+  display: none;  
 }

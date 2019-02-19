@@ -8,7 +8,7 @@
     position: fixed;
     top: 0;
     right: -100%;
-    z-index: 9;
+    z-index: 999;
     transition: all 2s;
     transition-timing-function: cubic-bezier(0.600, 0.040, 0.980, 0.335);
 
@@ -60,6 +60,7 @@
         .btn-menu{
             position: absolute;
             right: 60px;
+            z-index: 99;
 
             @media screen and (max-width: $screen-sm-max){
                 right: 25px;

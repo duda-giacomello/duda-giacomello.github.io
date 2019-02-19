@@ -17,21 +17,51 @@
         background: $color-bg-primary;
     }
 
+    .project.scroll-page{
+        .title-project, .description-project, .wrapper-brands{
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            transition-delay: 3s;
+        }
+    }
+    .project.scroll-page.active{
+        .title-project, .description-project, .wrapper-brands{
+            opacity: 1;
+            transition: opacity 1.5s ease-in-out;
+            transition-delay: 0.8s;
+        }
+    }
+
     .title-project{
         font-family: $font-secondary;
         font-weight: 800;
         text-transform: uppercase;
         font-size: 50px;
         margin: 0;
+
+        @media screen and (max-width: $screen-xs-max){
+            font-size: 25px;
+        }
     }
 
     .description-project{
         font-size: 22px;
         line-height: 35px;
         width: 90%;
+
+        @media screen and (max-width: $screen-xs-max){
+            font-size: 14px;
+            line-height: 25px;
+            width: 80%;
+        }
     }
 
     .wrapper-brands{
+
+        @media screen and (max-width: $screen-xs-max){
+            width: 85%;
+        }
+
         .list-brands{
             display: flex;
         }
@@ -41,6 +71,10 @@
             font-weight: 600;
             font-size: 18px;
             text-transform: uppercase;
+
+            @media screen and (max-width: $screen-xs-max){
+                font-size: 15px;
+            }
         }
 
         .box-brand{
@@ -52,4 +86,6 @@
             margin-left: 20px;
         }
     }
+
+
 }
