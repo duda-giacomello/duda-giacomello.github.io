@@ -54,6 +54,8 @@ body {
   background: url(icons/big_arrow.png) no-repeat center center;
   -webkit-background-size: contain;
   background-size: contain;
+  border: none;
+  cursor: pointer;
 }
 
 .icon-resume{
@@ -102,4 +104,37 @@ body {
   align-items: center;
   cursor: pointer;
   color: $color-primary;
+}
+
+.onepage-pagination{
+  transition: display 0.5s;
+  transition-delay: 3s;
+  display: block;
+  right: 95px;
+  margin-top: -70px;
+
+  li{
+    a:before{
+      background: $color-secondary;
+    }
+
+    a.active:before{
+      background: $color-primary;
+      border: none;
+    }
+  }
+
+  li + li{
+    margin-top: 20px;
+  }
+
+  li:first-child{
+    display: none;
+  }
+}
+
+.viewing-page-1 .onepage-pagination{
+  transition: display 0.5s;
+  transition-delay: 5s;
+  display: none;
 }

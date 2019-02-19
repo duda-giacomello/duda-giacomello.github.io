@@ -12,14 +12,20 @@ $(document).ready(function(){
 		}
 	})
 
-	// slide
-	const $slider = $('.slide-projects');
-	$slider.slick({
-		dots: true,
-		infinite: false,
-		speed: 500,
-		vertical: true,
-		verticalSwiping: true,
-		arrows: false
+	$(".home").onepage_scroll({
+		sectionContainer: ".scroll-page",
+		easing: "ease-in-out",
+		animationTime: 1000,
+		pagination: true,
+		updateURL: false,
+		loop: false,
+		keyboard: true,
+		responsiveFallback: false,
+		direction: "vertical"
 	});
+
+	$(".icon-arrow").click(function(){
+		$(".home").moveTo(2);
+	});
+	 
 });

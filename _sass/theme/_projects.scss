@@ -31,34 +31,6 @@
         width: 90%;
     }
 
-    .slide-projects{
-
-        .slick-dots{
-            list-style: none;
-            position: absolute;
-            right: 88px;
-            top: 50%;
-            margin-top: -68px;
-
-            li + li{
-                margin-top: 20px;
-            }
-        }
-
-        button{
-            text-indent: -99999px;
-            width: 15px;
-            height: 15px;
-            background: $color-secondary;
-            border: none;
-            cursor: pointer;
-        }
-
-        .slick-active button{
-            background: $color-primary;
-        }
-    }
-
     .wrapper-brands{
         .list-brands{
             display: flex;
