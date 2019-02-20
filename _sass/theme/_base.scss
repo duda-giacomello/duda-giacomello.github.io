@@ -115,6 +115,11 @@ body {
     right: 40px;
   }
 
+  @media screen and (max-width: $screen-xs-max){
+    right: 17px;
+    margin-top: -80px;
+  }
+
   li{
 
     a:before{

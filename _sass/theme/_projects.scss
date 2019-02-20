@@ -48,11 +48,13 @@
         font-size: 22px;
         line-height: 35px;
         width: 90%;
+        margin: 40px 0;
 
         @media screen and (max-width: $screen-xs-max){
             font-size: 14px;
             line-height: 25px;
             width: 80%;
+            margin: 30px 0;
         }
     }
 
@@ -80,10 +82,18 @@
         .box-brand{
             width: 100px;
             height: 100px;
+
+            @media screen and (max-width: $screen-xs-max){
+                height: auto;
+            }
         }
 
         .box-brand +  .box-brand{
             margin-left: 20px;
+
+            @media screen and (max-width: $screen-xs-max){
+                margin-left: 15px;
+            }
         }
     }
 
