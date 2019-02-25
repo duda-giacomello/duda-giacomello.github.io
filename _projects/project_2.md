@@ -7,13 +7,13 @@ description: O Analytics é uma ferramenta oferecida pelo Google, que dá acesso
   Através do monitoramento, análise e criação de metas, traremos insights e estratégias
   para melhorar o desempenho do seu site e da sua presença digital.
 brand1: "/assets/img/jardins&coimoveis.jpg"
-name_brand1:
+name_brand1: 
 brand2: "/assets/img/drachrissobral.jpeg"
-name_brand2:
+name_brand2: 
 brand3: "/assets/img/jardins&coimoveis.jpg"
-name_brand3:
+name_brand3: 
 brand4: "/assets/img/drachrissobral.jpeg"
-name_brand4:
+name_brand4: 
 layout: default
 ---
 
