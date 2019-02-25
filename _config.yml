@@ -1,22 +1,32 @@
+---
 title: eduarda giacomello
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: false
+  uploads:
+    title: Uploads
+    output: true
 email: eduarda.giacomello@gmail.com
-phone: +55 11 99778-0797
-description: Eduarda Giacomello atua desde 2012 na área de estratégia e conteúdo digital. Com vivência em agência e no marketing interno das marcas, presta serviços de planejamento de redes sociais, relatório de Google Analytics, relatório de SEO e produção  de conteúdo SEO para sites.
-meta_keywords: comunicação digital, posicionamento digital, social mídia, social media, redes sociais, relatório analytics, analytics, google analytics, branding digital, planejamento digital, planejamento de redes sociais, conteúdo seo, seo, conteúdo para sites, freelancer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eduardagiacomello.com.br/" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Build settings
+phone: "+55 11 99778-0797"
+description: Eduarda Giacomello atua desde 2012 na área de estratégia e conteúdo digital.
+  Com vivência em agência e no marketing interno das marcas, presta serviços de planejamento
+  de redes sociais, relatório de Google Analytics, relatório de SEO e produção  de
+  conteúdo SEO para sites.
+meta_keywords: comunicação digital, posicionamento digital, social mídia, social media,
+  redes sociais, relatório analytics, analytics, google analytics, branding digital,
+  planejamento digital, planejamento de redes sociais, conteúdo seo, seo, conteúdo
+  para sites, freelancer
+baseurl: ''
+url: https://eduardagiacomello.com.br/
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
