@@ -7,13 +7,13 @@ description: As redes sociais se tornaram indispensáveis para o posicionamento 
   de conteúdo faz sentido e em quais redes ela de fato precisa estar, além de criar
   estratégias para atingir as metas traçadas.
 brand1: "/uploads/jardins&coimoveis.jpg"
-name_brand1: 
-brand2: "/uploads/drachrissobral.jpeg"
-name_brand2: 
-brand3: "/uploads/jardins&coimoveis.jpg"
-name_brand3: 
-brand4: "/uploads/drachrissobral.jpeg"
-name_brand4: 
+name_brand1: Jardins & Co. Imóveis
+brand2: "/uploads/santomarbrasil.jpg"
+name_brand2: Santo Mar Brasil
+brand3: "/uploads/ixieacessorios.png"
+name_brand3: Ixie Acessórios
+brand4: "/uploads/kaa.jpg"
+name_brand4: Kaá
 layout: default
 ---
 
