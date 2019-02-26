@@ -1,5 +1,6 @@
 ---
 title: Relatório <br> de SEO
+position: 2
 description: SEO (Search Engine Optimization) é um conjunto de práticas que podem
   ser empregadas para melhorar o posicionamento de sites nos resultados orgânicos
   do Google e outros buscadores. Desta forma, o relatório de SEO analisa sua posição

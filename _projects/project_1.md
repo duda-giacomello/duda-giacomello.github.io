@@ -1,5 +1,6 @@
 ---
 title: Planejamento <br> de Redes Sociais
+position: 1
 description: As redes sociais se tornaram indispensáveis para o posicionamento das
   marcas no ambiente digital. Mas como se destacar em meio a um infinito de informações?
   Como criar uma conexão verdadeira com seu público-alvo? A partir de pesquisa de

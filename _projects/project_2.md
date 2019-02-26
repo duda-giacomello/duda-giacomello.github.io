@@ -1,5 +1,6 @@
 ---
 title: Relatório de <br> Google Analytics
+position: 0
 description: O Analytics é uma ferramenta oferecida pelo Google, que dá acesso a gráficos
   e estatísticas sobre o comportamento do usuário dentro do site/blog/e-commerce.
   São informações indispensáveis para entender a sua audiência, os pontos fortes e
