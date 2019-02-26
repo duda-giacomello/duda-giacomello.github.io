@@ -7,13 +7,13 @@ description: SEO (Search Engine Optimization) é um conjunto de práticas que po
   no rankeamento, quais palavras-chaves usar, desempenho de campanhas, e traz insights
   de como melhorar seu conteúdo e a estrutura do site para aumentar o tráfego de visitantes
   ou de vendas online.
-brand1: "/assets/img/jardins&coimoveis.jpg"
-name_brand1: 
-brand2: "/assets/img/drachrissobral.jpeg"
-name_brand2: 
-brand3: "/assets/img/jardins&coimoveis.jpg"
-name_brand3: 
-brand4: "/assets/img/drachrissobral.jpeg"
+brand1: "/uploads/luigibertoli.png"
+name_brand1: Luigi Bertoli
+brand2: "/uploads/emme.jpg"
+name_brand2: EMME
+brand3: "/uploads/drachrissobral.jpeg"
+name_brand3: Dra. Chris Sobral
+brand4: 
 name_brand4: 
 layout: default
 ---
