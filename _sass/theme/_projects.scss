@@ -4,6 +4,10 @@
         height: 100vh;
     }
 
+    .container{
+        position: relative;
+    }
+
     .project{
         display: flex;
         align-items: center;
@@ -86,6 +90,11 @@
             @media screen and (max-width: $screen-xs-max){
                 height: auto;
             }
+
+            &:hover p.tooltip-brand{
+                opacity: 1;
+                transition: opacity 0.3s ease-in-out;
+            }
         }
 
         .box-brand +  .box-brand{
@@ -95,7 +104,37 @@
                 margin-left: 15px;
             }
         }
+
+        p.tooltip-brand{
+            opacity: 0;
+            transition: opacity 0.3s;
+            width: fit-content;
+            font-family: $oswald;
+            font-weight: normal;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            color: $color-white;
+            background: $color-primary;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+
+            @media screen and (max-width: $screen-xs-max){
+                display: none;
+            }
+        }
     }
 
+    .icon-arrow{
+        display: none;
+        position: absolute;
+        right: -13px;
+        top: 0;
+        transform: rotate(180deg);
+    }
+
+    .project[data-index="5"] .icon-arrow{
+        display: block;
+    }
 
 }

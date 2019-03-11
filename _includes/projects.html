@@ -10,23 +10,28 @@
                     <p>Marcas Atendidas</p>
                     <div class="list-brands">
                         <div class="box-brand">
-                            <img src="{{ project.brand1 }}" alt="logo marca atendida" class="img-brand">
+                            <img src="{{ project.brand1 }}" alt="{{ project.name_brand1 }}" class="img-brand">
+                            <p class="tooltip-brand">{{ project.name_brand1 }}</p>
                         </div>
                         <div class="box-brand">
-                            <img src="{{ project.brand2 }}" alt="logo marca atendida" class="img-brand">
+                            <img src="{{ project.brand2 }}" alt="{{ project.name_brand2 }}" class="img-brand">
+                            <p class="tooltip-brand">{{ project.name_brand2 }}</p>
                         </div>
                         {% if project.brand3 %}
                         <div class="box-brand">
-                            <img src="{{ project.brand3 }}" alt="logo marca atendida" class="img-brand">
+                            <img src="{{ project.brand3 }}" alt="{{ project.name_brand3 }}" class="img-brand">
+                            <p class="tooltip-brand">{{ project.name_brand3 }}</p>
                         </div>
                         {% endif %}
                         {% if project.brand4 %}
                         <div class="box-brand">
-                            <img src="{{ project.brand4 }}" alt="logo marca atendida" class="img-brand">
+                            <img src="{{ project.brand4 }}" alt="{{ project.name_brand4 }}" class="img-brand">
+                            <p class="tooltip-brand">{{ project.name_brand4 }}</p>
                         </div>
                         {% endif %}
                     </div>
                 </div>
+                <button class="icon-arrow arrow-up"></button>
             </div>
         </div>
     {% endfor %}

@@ -24,8 +24,12 @@ $(document).ready(function(){
 		direction: "vertical"
 	});
 
-	$(".icon-arrow").click(function(){
+	$(".arrow-down").click(function(){
 		$(".home").moveTo(2);
+	});
+
+	$(".arrow-up").click(function(){
+		$(".home").moveTo(1);
 	});
 	 
 });

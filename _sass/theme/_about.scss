@@ -59,6 +59,8 @@
 
         .btn-menu{
             position: absolute;
+            top: 50%;
+            margin-top: -57px;
             right: 60px;
             z-index: 99;
 
@@ -69,6 +71,7 @@
             @media screen and (max-width: $screen-xs-max){
                 top: 25%;
                 right: 20px;
+                margin-top: 0;
                 font-size: 20px;
                 line-height: 20px;
             }
