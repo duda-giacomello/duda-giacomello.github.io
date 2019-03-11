@@ -21,7 +21,7 @@ meta_keywords: comunicação digital, posicionamento digital, social mídia, soc
   redes sociais, relatório analytics, analytics, google analytics, branding digital,
   planejamento digital, planejamento de redes sociais, conteúdo seo, seo, conteúdo
   para sites, freelancer
-baseurl: ''
+baseurl: 
 url: https://eduardagiacomello.com.br/
 markdown: kramdown
 theme: minima
