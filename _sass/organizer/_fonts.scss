@@ -36,3 +36,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Sugar Creates';
+    src: url('fonts/Sugarcreates/SugarCreatesRegular.otf');
+    src: url('fonts/Sugarcreates/SugarCreatesRegular.eot');
+    src: url('fonts/Sugarcreates/SugarCreatesRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Sugarcreates/SugarCreatesRegular.woff') format('woff'),
+         url('fonts/Sugarcreates/SugarCreatesRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

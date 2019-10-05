@@ -1,0 +1,61 @@
+.header{
+  background: $color-bg-primary;
+  padding-top: 20px;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  h1{
+    margin: 0;
+    background: url(img/personal-organizer/logo.png) no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    text-indent: -9999px;
+    width: 300px;
+    height: 190px;
+
+    @media screen and (max-width: $screen-sm-max){
+      width: 180px;
+      height: 115px;
+    }
+  }
+
+  .btn-contato{
+    display: none;
+  }
+
+  .btn-contato.desktop{
+    @media screen and (min-width: $screen-sm){
+      display: block;
+
+      &:hover{
+        text-decoration: underline;
+        text-underline-position: under;
+      }
+    }
+  }
+
+  .btn-contato.mobile{
+
+    @media screen and (max-width: $screen-sm-max){
+      display: block;
+    }
+  }
+
+  .btn-menu, .btn-contato{
+    font-family: $silk;
+    font-size: 19px;
+    color: $color-text-primary;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-menu:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+}

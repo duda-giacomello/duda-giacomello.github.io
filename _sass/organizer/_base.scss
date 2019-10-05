@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+// ::-moz-selection {
+//   background: $selection;
+//   color: white;
+//   text-shadow: none;
+// }
+
+// ::selection {
+//   background: $selection;
+//   color: white;
+//   text-shadow: none;
+// }
+
+.no-scroll{
+  overflow-y: hidden;
+  height: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 1175px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $screen-md) and (max-width: $screen-md-max){
+    width: 80%;
+  }
+
+  @media only screen and (max-width: $screen-sm-max){
+    width: 90%;
+  }
+}
