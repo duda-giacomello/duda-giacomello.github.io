@@ -1,0 +1,77 @@
+.footer{
+    padding: 45px;
+
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-family: $silk;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        color:#59656d;
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        span{
+            font-family: $sugar;
+            font-weight: normal;
+            font-size: 90px;
+            color: #c9a0a5;
+            line-height: 65px;
+        }
+    }
+
+    .footer-info-contact a, .footer-info-contact p{
+        font-family: $opensans;
+        font-size: 16px;
+        color: #222222;
+    }
+
+    .footer-info-contact{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+
+        .instagram{
+            display: block;
+            background: url(img/personal-organizer/icon.png) no-repeat center center;
+            -webkit-background-size: contain;
+            background-size: contain;
+            text-indent: -9999px;
+            width: 30px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+
+        .phone{
+            margin-bottom: 10px;
+        }
+    }
+
+    .footer-protea{
+        height: 110px;
+        width: 69px;
+        transform: rotateY(180deg);
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .ephemere{
+        a{
+            display: block;
+            background: url(img/personal-organizer/ephemere_v02.png) no-repeat center center;
+            -webkit-background-size: contain;
+            background-size: contain;
+            text-indent: -9999px;
+            width: 170px;
+            height: 50px;
+            margin-top: 20px;
+        }
+    }
+}

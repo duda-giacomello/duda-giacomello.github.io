@@ -1,0 +1,64 @@
+.consultorias{
+    background: #c9a0a5;
+    padding: 80px 0;
+
+    h3{
+        font-family: $silk;
+        font-size: 86px;
+        font-weight: normal;
+        letter-spacing: 0.5px;
+        color: #222222;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .wrapper-consultorias{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box-consultoria{
+        .box-number{
+            font-family: $opensans;
+            font-weight: bold;
+            font-size: 25px;
+            color:#222222;
+            margin: 0;
+
+            &:after {
+                content: url("../assets/img/personal-organizer/shape.png");
+                padding-left: 8px;
+                color:$color-text-primary;
+                vertical-align: super;
+            }
+        }
+
+        .box-title{
+            font-family: $silk;
+            font-weight: normal;
+            font-size: 32px;
+            letter-spacing: 0.5px;
+            color: $color-text-primary;
+            margin: 0;
+        }
+
+        .lista-consultoria{
+            list-style: none;
+            padding: 0;
+            margin-top: 70px;
+        }
+
+        .item-consultoria{
+            font-family: $opensans;
+            font-weight: normal;
+            font-size: 16px;
+            color: $color-text-primary;
+
+            &:before {
+                content: "-";
+                padding-right: 8px;
+                color:$color-text-primary;
+            }
+        }
+    }
+}
