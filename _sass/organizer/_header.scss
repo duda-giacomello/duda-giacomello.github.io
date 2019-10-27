@@ -58,4 +58,104 @@
     text-decoration: underline;
     text-underline-position: under;
   }
+
+  .menu{
+    opacity: 0;
+    position: fixed;
+    left: -9999px;
+    top: 0;
+    width: 40%;
+    overflow-y: auto;
+    height: 100%;
+    height: 100vh;
+    padding: 60px;
+    background: $color-bg-secondary;
+    transition: left 2s linear, opacity 1s cubic-bezier(.4,.25,.3,1);
+    
+    a{
+      color: #222222;
+    }
+
+    .content-menu{
+      text-align: center;
+    }
+
+    .menu-header{
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      img{
+        height: 100px;
+        filter: invert(85%);
+        transform: rotateY(180deg);
+      }
+
+      .btn-close-menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        background: none;
+        background: url(img/personal-organizer/cancel.png) no-repeat center center;
+        background-size: 20px;
+        text-indent: -9999px;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+
+    .menu-list{
+      padding-left: 0;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    .menu-item-list{
+      font-family: $silk;
+      font-size: 28px;
+    }
+
+    .menu-item-list + .menu-item-list{
+      margin-top: 25px;
+    }
+
+    .menu-contact{
+      padding-top: 30px;
+      margin: 0 30px;
+      border-top: solid 1px #222222;
+      a{
+        display: block;
+        font-family: $opensans;
+        font-size: 18px;
+      }
+
+      a + a{
+        margin-top: 15px;
+      }
+
+      .instagram{
+        display: block;
+
+        &::before{
+          content: "";
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background: url("img/personal-organizer/icon.png") no-repeat center center;
+          margin-right: 10px;
+          
+        }
+      }
+    }
+  }
+
+  .menu.expanded{
+    opacity: 1;
+    left: 0;
+    // transition: all 0.5s ease-in-out;
+    transition: left 100ms ease-in, opacity 700ms cubic-bezier(.4,.25,.3,1);
+  }
 }

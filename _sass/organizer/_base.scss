@@ -7,17 +7,9 @@ html, body {
     width: 100%;
 }
 
-// ::-moz-selection {
-//   background: $selection;
-//   color: white;
-//   text-shadow: none;
-// }
-
-// ::selection {
-//   background: $selection;
-//   color: white;
-//   text-shadow: none;
-// }
+li{
+  list-style: none;
+}
 
 .no-scroll{
   overflow-y: hidden;

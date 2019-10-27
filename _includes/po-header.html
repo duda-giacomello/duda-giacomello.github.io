@@ -1,6 +1,25 @@
 <header class="header">
     <div class="container">
         <button class="btn-menu">Menu</button>
+        <div class="menu">
+            <div class="menu-header">
+                <img src="{{ site.baseurl }}assets/img/personal-organizer/protea_rose.png" alt="flor protea">
+                <button class="btn-close-menu">Close</button>
+            </div>
+            <div class="content-menu">
+                <ul class="menu-list">
+                    <li class="menu-item-list"><a href="#about-organizer">Personal Organizer</a></li>
+                    <li class="menu-item-list"><a href="#consultorias">Consultorias</a></li>
+                    <li class="menu-item-list"><a href="">Depoimentos</a></li>
+                    <li class="menu-item-list"><a href="">Sobre Mim</a></li>
+                </ul>
+                <div class="menu-contact">
+                    <a href="https://api.whatsapp.com/send?phone=5511997780797" target="_blank">T: {{ site.phone }}</a>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    <a href="https://www.instagram.com/naosoumaria" target="_blank" class="instagram">@naosoumaria</a>
+                </div>
+            </div>
+        </div>
         <h1>Eduarda Giacomello - Personal Organizer</h1>
         <a href="https://api.whatsapp.com/send?phone=5511997780797" target="_blank" class="btn-contato mobile">Contato</a>
         <a href="mailto:{{ site.email }}" class="btn-contato desktop">Contato</a>
