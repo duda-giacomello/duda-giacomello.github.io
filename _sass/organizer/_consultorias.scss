@@ -2,6 +2,10 @@
     background: #c9a0a5;
     padding: 80px 0;
 
+    @media screen and (max-width: $screen-sm-max){
+        padding: 40px 0;     
+    }
+
     h3{
         font-family: $silk;
         font-size: 86px;
@@ -10,11 +14,25 @@
         color: #222222;
         margin-top: 0;
         margin-bottom: 60px;
+
+        @media screen and (max-width: $screen-sm-max){
+          font-size: 60px;
+          margin-bottom: 40px;
+          text-align: center;
+        }
     }
 
     .wrapper-consultorias{
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: $screen-sm-max){
+          flex-wrap: wrap;
+
+          .box-consultoria + .box-consultoria{
+              margin-top: 30px;
+          }
+        }
     }
 
     .box-consultoria{
@@ -46,6 +64,10 @@
             list-style: none;
             padding: 0;
             margin-top: 70px;
+
+            @media screen and (max-width: $screen-sm-max){
+                margin-top: 25px;
+            }
         }
 
         .item-consultoria{
@@ -60,5 +82,26 @@
                 color:$color-text-primary;
             }
         }
+    }
+
+    .consultoria-text{
+        font-family: $silk;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: $color-text-primary;
+        margin-top: 60px;
+        margin-bottom: 0;
+
+        span{
+            color: $color-bg-primary;
+            font-style: italic;
+        }
+
+        @media screen and (max-width: $screen-sm-max){
+            font-size: 18px;
+            margin-top: 30px;
+          }
     }
 }

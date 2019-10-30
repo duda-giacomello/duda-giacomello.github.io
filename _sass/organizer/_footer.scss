@@ -1,6 +1,10 @@
 .footer{
     padding: 45px;
 
+    @media screen and (max-width: $screen-sm-max){
+        padding: 40px 0;
+    }
+
     h3{
         display: flex;
         justify-content: center;
@@ -13,12 +17,22 @@
         margin-top: 0;
         margin-bottom: 30px;
 
+        @media screen and (max-width: $screen-sm-max){
+          font-size: 18px;
+        }
+
         span{
             font-family: $sugar;
             font-weight: normal;
             font-size: 90px;
             color: #c9a0a5;
             line-height: 65px;
+            margin-right: 10px;
+
+            @media screen and (max-width: $screen-sm-max){
+                font-size: 55px;
+                line-height: 45px;
+            }
         }
     }
 
@@ -32,6 +46,10 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
+
+        @media screen and (max-width: $screen-sm-max){
+          flex-wrap: wrap;
+        }
     }
 
     .contact{
@@ -60,6 +78,11 @@
         transform: rotateY(180deg);
         margin-left: 55px;
         margin-right: 55px;
+        
+        @media screen and (max-width: $screen-sm-max){
+          margin-left: 20px;
+          margin-right: 0;
+        }
     }
 
     .ephemere{
@@ -72,6 +95,10 @@
             width: 170px;
             height: 50px;
             margin-top: 20px;
+        }
+
+        @media screen and (max-width: $screen-sm-max){
+            margin-top: 30px;
         }
     }
 }

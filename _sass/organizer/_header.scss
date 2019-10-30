@@ -6,6 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: $screen-sm-max){
+      flex-flow: row-reverse;
+    }
   }
     
   h1{
@@ -24,24 +28,14 @@
   }
 
   .btn-contato{
-    display: none;
-  }
 
-  .btn-contato.desktop{
-    @media screen and (min-width: $screen-sm){
-      display: block;
-
-      &:hover{
-        text-decoration: underline;
-        text-underline-position: under;
-      }
+    &:hover{
+      text-decoration: underline;
+      text-underline-position: under;
     }
-  }
-
-  .btn-contato.mobile{
 
     @media screen and (max-width: $screen-sm-max){
-      display: block;
+      display: none;
     }
   }
 
@@ -71,6 +65,14 @@
     padding: 60px;
     background: $color-bg-secondary;
     transition: left 2s linear, opacity 1s cubic-bezier(.4,.25,.3,1);
+
+    @media screen and (max-width: $screen-sm-max){
+      width: 90%;
+      padding: 30px;
+      left: initial;
+      right: -99999px;
+      transition: right 2s linear, opacity 1s cubic-bezier(.4,.25,.3,1);
+    }
     
     a{
       color: #222222;
@@ -116,6 +118,10 @@
     .menu-item-list{
       font-family: $silk;
       font-size: 28px;
+
+      @media screen and (max-width: $screen-sm-max){
+          font-size: 22px;
+      }
     }
 
     .menu-item-list + .menu-item-list{
@@ -126,10 +132,19 @@
       padding-top: 30px;
       margin: 0 30px;
       border-top: solid 1px #222222;
+
+      @media screen and (max-width: $screen-sm-max){
+        margin: 0;
+      }
+
       a{
         display: block;
         font-family: $opensans;
         font-size: 18px;
+
+        @media screen and (max-width: $screen-sm-max){
+          font-size: 15px;
+        }
       }
 
       a + a{
@@ -157,5 +172,11 @@
     left: 0;
     // transition: all 0.5s ease-in-out;
     transition: left 100ms ease-in, opacity 700ms cubic-bezier(.4,.25,.3,1);
+
+    @media screen and (max-width: $screen-sm-max){
+      left: initial;
+      right: 0;
+      transition: right 100ms ease-in, opacity 700ms cubic-bezier(.4,.25,.3,1);
+    }
   }
 }

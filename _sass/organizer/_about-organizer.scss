@@ -1,12 +1,8 @@
 .about-organizer{
-  // width: 100%;
-  // width: 100vw;
-  // height: 100%;
   padding: 80px 0;
   background-color: $color-bg-primary;
   background-image: url(img/personal-organizer/protea.png);
   background-repeat: no-repeat;
-  // background-attachment: fixed;
   background-position: center right;
   background-size: 60% 80%;
 
@@ -16,6 +12,7 @@
 
   @media screen and (max-width: $screen-sm-max){
     background-size: 55% 25%;
+    padding: 40px 0;
   }
 
   h2{
@@ -27,6 +24,11 @@
     text-align: center;
     line-height: 90px; 
     color: $color-text-primary;
+
+    @media screen and (max-width: $screen-sm-max){
+          font-size: 60px;
+          line-height: 60px;
+    }
   }
 
   h3{
@@ -44,12 +46,22 @@
       color: $color-text-strong;
       font-weight: normal;
     }
+
+    @media screen and (max-width: $screen-sm-max){
+      font-size: 20px;
+      width: 100%;
+      margin: 30px 0;
+    }
   }
 
   .about-organizer-content{
     width: 705px;
     margin: 0 auto;
     display: flex;
+
+    @media screen and (max-width: $screen-sm-max){
+      width: 100%;
+    }
 
     p{
       font-family: $opensans;
@@ -60,22 +72,38 @@
       margin-top: 0;
       margin-bottom: 0;
       width: 50%;
+
+      @media screen and (max-width: $screen-sm-max){
+          font-size: 13px;
+          line-height: 18px;
+      }
     }
 
     p:first-child{
-      // margin-right: 60px;
       padding-right: 60px;
       border-right: 1px solid $color-text-primary;
+
+      @media screen and (max-width: $screen-sm-max){
+          padding-right: 15px;
+      }
     }
 
     p:last-child{
       padding-left: 60px;
+
+      @media screen and (max-width: $screen-sm-max){
+          padding-left: 15px;
+      }
     }
   }
 
   .call-to-action{
     margin-top: 60px;
     text-align: center;
+
+    @media screen and (max-width: $screen-sm-max){
+      margin-top: 30px;
+    }
 
     a{
       display: flex;
