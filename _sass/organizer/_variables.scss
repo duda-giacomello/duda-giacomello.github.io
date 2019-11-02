@@ -5,11 +5,19 @@ $sugar: 'Sugar Creates', sans-serif;
 
 // colors
 $color-white: #ffffff;
-$color-gray: #53636b;
+$color-blue: #53636b;
 $color-pink: #c89fa5;
-$color-pink-2: #c9a0a5;
+$color-gray: #222222;
 
 $color-text-primary: $color-white;
+$color-text-secondary: $color-gray;
 $color-text-strong: $color-pink;
-$color-bg-primary: $color-gray;
-$color-bg-secondary: $color-pink-2;
+$color-bg-primary: $color-blue;
+
+%padding{
+    padding: 80px 0;
+
+    @media screen and (max-width: $screen-sm-max){
+        padding: 40px 0; 
+    }
+}

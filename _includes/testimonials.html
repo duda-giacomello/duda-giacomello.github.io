@@ -1,0 +1,28 @@
+<section id="depoimentos" class="depoimentos">
+    <div class="container">
+        <h3>Depoimentos</h3>
+        <div class="depoimentos-slides">
+            {% for testimonial in site.testimonials %}
+            <div class="depoimento">
+                <div class="content-depoimento">
+                    <p class="title">{{ testimonial.title }}</p>
+                    <p class="title">
+                        {{ testimonial.first_name }} <span>{{ testimonial.second_name}}</span>
+                    </p>
+                    <p class="occupation">
+                        {{ testimonial.occupation }}
+                    </p>
+                    <p class="depoimento-text">
+                        {{ testimonial.content }}
+                    </p>
+                </div>
+                <div class="wrapper-img">
+                    <img src="{{ site.baseurl }}assets/img/personal-organizer/stamp_01.png" alt="" class="stamp">
+                    <img class="img-depoimento" src="{{ site.baseurl }}{{ testimonial.image }}">
+                </div>
+                
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

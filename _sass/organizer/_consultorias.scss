@@ -1,17 +1,13 @@
 .consultorias{
-    background: #c9a0a5;
-    padding: 80px 0;
-
-    @media screen and (max-width: $screen-sm-max){
-        padding: 40px 0;     
-    }
+    background: $color-text-strong;
+    @extend %padding;
 
     h3{
         font-family: $silk;
         font-size: 86px;
         font-weight: normal;
         letter-spacing: 0.5px;
-        color: #222222;
+        color: $color-text-secondary;
         margin-top: 0;
         margin-bottom: 60px;
 
@@ -40,7 +36,7 @@
             font-family: $opensans;
             font-weight: bold;
             font-size: 25px;
-            color:#222222;
+            color:$color-text-secondary;
             margin: 0;
 
             &:after {
@@ -74,6 +70,7 @@
             font-family: $opensans;
             font-weight: normal;
             font-size: 16px;
+            line-height: 20px;
             color: $color-text-primary;
 
             &:before {
@@ -102,6 +99,6 @@
         @media screen and (max-width: $screen-sm-max){
             font-size: 18px;
             margin-top: 30px;
-          }
+        }
     }
 }

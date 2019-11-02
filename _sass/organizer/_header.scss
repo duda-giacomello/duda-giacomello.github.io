@@ -62,8 +62,8 @@
     overflow-y: auto;
     height: 100%;
     height: 100vh;
-    padding: 60px;
-    background: $color-bg-secondary;
+    padding: 50px;
+    background: $color-text-strong;
     transition: left 2s linear, opacity 1s cubic-bezier(.4,.25,.3,1);
 
     @media screen and (max-width: $screen-sm-max){
@@ -75,7 +75,7 @@
     }
     
     a{
-      color: #222222;
+      color: $color-text-secondary;
     }
 
     .content-menu{
@@ -131,7 +131,7 @@
     .menu-contact{
       padding-top: 30px;
       margin: 0 30px;
-      border-top: solid 1px #222222;
+      border-top: solid 1px $color-text-secondary;
 
       @media screen and (max-width: $screen-sm-max){
         margin: 0;
@@ -159,7 +159,9 @@
           display: inline-block;
           width: 30px;
           height: 30px;
-          background: url("img/personal-organizer/icon.png") no-repeat center center;
+          background-image: url("img/personal-organizer/instagram_azul.png");
+          background-repeat: no-repeat;
+          background-size: contain;
           margin-right: 10px;
           
         }

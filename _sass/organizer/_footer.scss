@@ -13,7 +13,7 @@
         font-weight: bold;
         font-size: 30px;
         letter-spacing: 0.5px;
-        color:#59656d;
+        color: $color-bg-primary;
         margin-top: 0;
         margin-bottom: 30px;
 
@@ -25,7 +25,7 @@
             font-family: $sugar;
             font-weight: normal;
             font-size: 90px;
-            color: #c9a0a5;
+            color: $color-text-strong;
             line-height: 65px;
             margin-right: 10px;
 
@@ -39,7 +39,7 @@
     .footer-info-contact a, .footer-info-contact p{
         font-family: $opensans;
         font-size: 16px;
-        color: #222222;
+        color: $color-bg-primary;
     }
 
     .footer-info-contact{
@@ -64,7 +64,7 @@
             text-indent: -9999px;
             width: 30px;
             height: 30px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         .phone{
@@ -76,8 +76,8 @@
         height: 110px;
         width: 69px;
         transform: rotateY(180deg);
-        margin-left: 55px;
-        margin-right: 55px;
+        margin-left: 40px;
+        margin-right: 40px;
         
         @media screen and (max-width: $screen-sm-max){
           margin-left: 20px;
@@ -92,9 +92,9 @@
             -webkit-background-size: contain;
             background-size: contain;
             text-indent: -9999px;
-            width: 170px;
-            height: 50px;
-            margin-top: 20px;
+            width: 130px;
+            height: 33px;
+            margin-top: 10px;
         }
 
         @media screen and (max-width: $screen-sm-max){

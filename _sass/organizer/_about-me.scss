@@ -1,0 +1,28 @@
+.about-me{
+    background: #a6b0b4;
+    @extend %padding;
+
+    .content-about-me{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    img{
+        width: 60%;
+    }
+
+    p{
+        width: 35%;
+        font-family: $opensans;
+        font-size: 16px;
+        color: $color-text-secondary;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+    }
+
+    span{
+        font-style: italic;
+        color: $color-text-primary;
+    }
+}

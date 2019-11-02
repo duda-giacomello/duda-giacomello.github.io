@@ -1,0 +1,83 @@
+.depoimentos{
+    color: $color-text-secondary;
+    background: $color-text-primary;
+    @extend %padding;
+
+    h3{
+        font-family: $opensans;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .depoimento{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .content-depoimento{
+        width: 40%;
+    }
+
+    .title{
+        font-family: $silk;
+        font-size: 60px;
+
+        span{
+            font-style: italic;
+            color: $color-text-strong;
+        }
+    }
+
+    .occupation{
+        font-family: $opensans;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 30px;
+    }
+
+    .depoimento-text{
+        font-family: $opensans;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+        margin-top: 50px;
+    }
+
+    .wrapper-img{
+        position: relative;
+        width: 50%;
+    }
+
+    .stamp{
+        position: absolute;
+        top: -15px;
+        left: -100px;
+        height: 200px;
+    }
+
+    //slick
+
+    .slick-prev.slick-arrow{
+        display: none !important;
+    }
+
+    .slick-next.slick-arrow{
+        position: absolute;
+        right: -80px;
+        top: 50%;
+        border: none;
+        background: url(img/personal-organizer/seta.png) no-repeat center center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        text-indent: -9999px;
+        height: 40px;
+        width: 50px;
+        cursor: pointer;
+    }
+}

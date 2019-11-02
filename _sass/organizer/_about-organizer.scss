@@ -1,5 +1,5 @@
 .about-organizer{
-  padding: 80px 0;
+  @extend %padding;
   background-color: $color-bg-primary;
   background-image: url(img/personal-organizer/protea.png);
   background-repeat: no-repeat;
@@ -12,7 +12,6 @@
 
   @media screen and (max-width: $screen-sm-max){
     background-size: 55% 25%;
-    padding: 40px 0;
   }
 
   h2{
