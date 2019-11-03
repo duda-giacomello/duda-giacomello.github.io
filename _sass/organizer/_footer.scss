@@ -54,6 +54,7 @@
 
         @media screen and (max-width: $screen-sm-max){
           flex-wrap: wrap;
+          align-items: flex-end;
         }
     }
 

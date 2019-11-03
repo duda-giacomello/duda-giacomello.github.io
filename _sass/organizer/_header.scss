@@ -121,7 +121,7 @@
       font-size: 28px;
 
       @media screen and (max-width: $screen-sm-max){
-          font-size: 22px;
+        font-size: 22px;
       }
     }
 
@@ -164,6 +164,12 @@
           background-repeat: no-repeat;
           background-size: contain;
           margin-right: 10px;
+
+          @media screen and (max-width: $screen-sm-max){
+            width: 25px;
+            height: 25px;
+            margin-bottom: -3px;
+          }
           
         }
       }
