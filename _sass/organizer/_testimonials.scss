@@ -18,10 +18,18 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+
+        @media screen and (max-width: $screen-sm-max){
+            display: block;
+        }
     }
 
     .content-depoimento{
         width: 40%;
+
+        @media screen and (max-width: $screen-sm-max){
+            width: 100%;
+        }
     }
 
     .title{
@@ -32,6 +40,10 @@
             font-style: italic;
             color: $color-text-strong;
         }
+
+        @media screen and (max-width: $screen-sm-max){
+            font-size: 50px;
+        }
     }
 
     .occupation{
@@ -39,6 +51,10 @@
         font-size: 18px;
         text-transform: uppercase;
         margin-top: 30px;
+
+        @media screen and (max-width: $screen-sm-max){
+            margin-top: 20px;
+        }
     }
 
     .depoimento-text{
@@ -47,11 +63,27 @@
         line-height: 23px;
         letter-spacing: 0.5px;
         margin-top: 50px;
+
+        @media screen and (max-width: $screen-sm-max){
+            margin-top: 20px;
+        }
     }
 
     .wrapper-img{
         position: relative;
         width: 50%;
+
+        @media screen and (max-width: $screen-sm-max){
+            margin-top: 50px;
+            width: 100%;
+        }
+    }
+
+    .img-depoimento{
+        @media screen and (max-width: $screen-sm-max){
+            margin: auto;
+            width: 90%;
+        }
     }
 
     .stamp{
@@ -59,6 +91,13 @@
         top: -15px;
         left: -100px;
         height: 200px;
+
+        @media screen and (max-width: $screen-sm-max){
+            top: -57px;
+            left: inherit;
+            right: -22px;
+            height: 130px;
+        }
     }
 
     //slick
@@ -79,5 +118,13 @@
         height: 40px;
         width: 50px;
         cursor: pointer;
+
+        @media screen and (max-width: $screen-sm-max){
+            height: 30px;
+            width: 30px;
+            top: 75%;
+            left: inherit;
+            right: 0;
+        }
     }
 }

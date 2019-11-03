@@ -12,7 +12,7 @@
         margin-bottom: 60px;
 
         @media screen and (max-width: $screen-sm-max){
-          font-size: 60px;
+          font-size: 50px;
           margin-bottom: 40px;
           text-align: center;
         }
@@ -26,7 +26,7 @@
           flex-wrap: wrap;
 
           .box-consultoria + .box-consultoria{
-              margin-top: 30px;
+              margin-top: 20px;
           }
         }
     }
@@ -45,6 +45,10 @@
                 color:$color-text-primary;
                 vertical-align: super;
             }
+
+            @media screen and (max-width: $screen-sm-max){
+                font-size: 22px;
+            }
         }
 
         .box-title{
@@ -54,6 +58,10 @@
             letter-spacing: 0.5px;
             color: $color-text-primary;
             margin: 0;
+
+            @media screen and (max-width: $screen-sm-max){
+                font-size: 28px;
+            }
         }
 
         .lista-consultoria{
@@ -97,7 +105,7 @@
         }
 
         @media screen and (max-width: $screen-sm-max){
-            font-size: 18px;
+            font-size: 16px;
             margin-top: 30px;
         }
     }

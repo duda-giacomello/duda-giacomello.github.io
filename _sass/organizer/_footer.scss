@@ -19,6 +19,7 @@
 
         @media screen and (max-width: $screen-sm-max){
           font-size: 18px;
+          align-items: baseline;
         }
 
         span{
@@ -40,6 +41,10 @@
         font-family: $opensans;
         font-size: 16px;
         color: $color-bg-primary;
+
+        @media screen and (max-width: $screen-sm-max){
+            font-size: 14px;
+        }
     }
 
     .footer-info-contact{
@@ -80,7 +85,7 @@
         margin-right: 40px;
         
         @media screen and (max-width: $screen-sm-max){
-          margin-left: 20px;
+          margin-left: 0;
           margin-right: 0;
         }
     }
