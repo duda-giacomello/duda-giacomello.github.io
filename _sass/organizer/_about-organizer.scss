@@ -121,6 +121,10 @@
         font-size: 110px;
         line-height: 70px;
         color: $color-text-primary;
+
+        @media screen and (max-width: $screen-sm-max){
+          font-size: 100px;
+        }
       }
 
       & span:nth-child(3){
@@ -128,6 +132,10 @@
         font-size: 15px;
         color: $color-text-primary;
         letter-spacing: 3px;
+
+        @media screen and (max-width: $screen-sm-max){
+          margin-top: 5px;
+        }
       }
     }
   }
