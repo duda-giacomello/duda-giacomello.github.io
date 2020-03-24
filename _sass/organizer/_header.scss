@@ -142,6 +142,9 @@
         display: block;
         font-family: $opensans;
         font-size: 18px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
 
         @media screen and (max-width: $screen-sm-max){
           font-size: 15px;
@@ -149,7 +152,7 @@
       }
 
       a + a{
-        margin-top: 15px;
+        margin-top: 20px;
       }
 
       .instagram{

@@ -119,7 +119,7 @@
       & span:nth-child(2){
         font-family: $sugar;
         font-size: 110px;
-        line-height: 70px;
+        line-height: 60px;
         color: $color-text-primary;
 
         @media screen and (max-width: $screen-sm-max){
@@ -132,6 +132,7 @@
         font-size: 15px;
         color: $color-text-primary;
         letter-spacing: 3px;
+        line-height: 40px;
 
         @media screen and (max-width: $screen-sm-max){
           margin-top: 5px;
