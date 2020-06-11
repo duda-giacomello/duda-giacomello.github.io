@@ -9,7 +9,6 @@ tags:
 - personal organizer
 first_name: Kethy
 second_name: Pavloski
-occupation: Sócia da Mana Manutenção
 image: "/uploads/casadakethy.jpg"
 layout: default
 ---
