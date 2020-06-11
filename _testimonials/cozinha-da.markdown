@@ -14,4 +14,5 @@ layout: default
 ---
 
 É muito difícil você passar por momentos que exigem muita energia mental e física pra ressignificar tudo e ainda assim continuar processando e lidando com todo o restante da vida.
+
 A Duda abriu todas as gavetas, armários, baús e mexeu em todos os recantos da casa. Organizou tudo pra mim por categorias de frequência de uso, e ainda criou um cantinho das coisas do café da manhã que foi a luz das minhas manhãs corridas.
