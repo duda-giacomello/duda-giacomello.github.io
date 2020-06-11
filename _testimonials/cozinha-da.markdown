@@ -9,7 +9,8 @@ tags:
 - organização
 first_name: Lucí
 second_name: Castor
-image: "/uploads/IMG-20190211-WA0047.jpg"
+image: "/uploads/oraganiza%C3%A7%C3%A3o_cozinha_luc%C3%AD.jpg"
+layout: default
 ---
 
 É muito difícil você passar por momentos que exigem muita energia mental e física pra ressignificar tudo e ainda assim continuar processando e lidando com todo o restante da vida.
