@@ -7,7 +7,7 @@ tags:
 - closet
 - organização
 - personal organizer
-position: 2
+position: 3
 first_name: Kethy
 second_name: Pavloski
 image: "/uploads/casadakethy.jpg"

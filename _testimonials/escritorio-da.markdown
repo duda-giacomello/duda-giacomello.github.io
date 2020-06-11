@@ -7,7 +7,7 @@ tags:
 - escritório
 - organização
 - home office
-position: 3
+position: 2
 first_name: Kethy
 second_name: Pavloski
 image: "/uploads/oraganiza%C3%A7%C3%A3o_escrit%C3%B3rio_kethy.jpg"
