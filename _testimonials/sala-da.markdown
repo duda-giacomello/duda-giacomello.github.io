@@ -9,6 +9,7 @@ tags:
 - sala
 - living room
 - décor
+position: 1
 first_name: Luciana
 second_name: Estevam
 image: "/uploads/homestilyng_sala_luciana.jpg"

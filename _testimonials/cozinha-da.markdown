@@ -7,7 +7,7 @@ tags:
 - cozinha
 - rotina
 - organização
-position: 1
+position: 2
 first_name: Lucí
 second_name: Castor
 image: "/uploads/oraganiza%C3%A7%C3%A3o_cozinha_luc%C3%AD.jpg"
