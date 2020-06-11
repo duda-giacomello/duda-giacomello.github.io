@@ -1,5 +1,12 @@
 ---
 title: Escritório da
+categories:
+- personal organizer
+tags:
+- organização
+- home office
+- escritório
+- personal organizer
 first_name: Lucí
 second_name: Castor
 occupation: Professora de inglês
