@@ -7,6 +7,7 @@ tags:
 - home office
 - escritório
 - personal organizer
+position: 0
 first_name: Lucí
 second_name: Castor
 image: "/uploads/casadaluci.jpg"
