@@ -1,8 +1,15 @@
 ---
-title: Casa da
+title: Guarda-roupa da
+categories:
+- personal organizer
+tags:
+- guarda-roupa
+- closet
+- organização
+- personal organizer
 first_name: Kethy
 second_name: Pavloski
-occupation: Sócia da mana manutenção
+occupation: Sócia da Mana Manutenção
 image: "/uploads/casadakethy.jpg"
 layout: default
 ---
