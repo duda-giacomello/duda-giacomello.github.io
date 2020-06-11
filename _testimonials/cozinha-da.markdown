@@ -15,4 +15,5 @@ layout: default
 
 A Duda abriu todas as gavetas, armários, baús e mexeu em todos os recantos da casa. Organizou tudo pra mim por categorias de frequência de uso, e ainda criou um cantinho das coisas do café da manhã que foi a luz das minhas manhãs corridas.
 
+
 Ela veio na minha casa e com muito carinho, respeito e atenção, me ouviu e entendeu o que eu precisava: uma casa prática, organizada e livre de coisas que eu não usava mais. Recomendo demais!
