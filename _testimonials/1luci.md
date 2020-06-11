@@ -9,7 +9,6 @@ tags:
 - personal organizer
 first_name: Lucí
 second_name: Castor
-occupation: Professora de inglês
 image: "/uploads/casadaluci.jpg"
 layout: default
 ---
